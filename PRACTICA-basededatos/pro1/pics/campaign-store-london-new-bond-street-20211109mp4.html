@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <!-- metas pour l'affichage mobile -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <!-- titre de la page -->
+        <meta name="apple-mobile-web-app-title" content="campaign-store-london-new-bond-street-20211109mp4">
+        <title>campaign-store-london-new-bond-street-20211109mp4</title>
+        <meta itemprop="name" content="campaign-store-london-new-bond-street-20211109mp4">
+        <meta property="og:title" content="campaign-store-london-new-bond-street-20211109mp4">
+        <meta name="twitter:title" content="campaign-store-london-new-bond-street-20211109mp4">
+        <!-- description de la page -->
+        <meta name="description" content="">
+        <meta itemprop="description" content="">
+        <meta name="twitter:description" content="">
+        <meta name="robots" content="index, follow, all" />
+        <!-- open graph type -->
+        <meta property="og:type" content="website">
+        <!-- images pour le partage -->
+        <meta itemprop="image" content="https://www.yuca.tv/storage/2/248/images/default.jpg">
+        <meta property="og:image" content="https://www.yuca.tv/storage/2/248/images/default.jpg">
+        <!-- lien canonique -->
+        <meta property="og:url" content="https://www.celine.com">
+        <link rel="canonical" href="https://www.celine.com" type="text/html">
+        <meta name="twitter:url" content="https://www.celine.com">
+
+        <link type="text/css" rel="stylesheet" href="/assets/styles/playeryt_export.css?v=200217200217" />
+        <link type="text/css" rel="stylesheet" href="/assets/styles/event/20f07591c6fcb220ffe637cda29bb3f6.css?v=200330130349" />
+        <style type="text/css">html,body{ height:100%; background-color:#000; }</style>
+		<link type="text/css" rel="stylesheet" href="/upload/clients/celine/css/player_20f07591c6fcb220ffe637cda29bb3f6_cssCustom.css?v=200325172657" />
+    
+
+
+<!--[if lte IE 8]>
+    <script type="text/javascript" src="/assets/scripts/playerslidewc2-built.1.0.js?v=160127115205"></script>
+    <script type="text/javascript">document.documentElement.className += ' lte-ie8';</script>
+<script type="text/javascript" language="JavaScript" src="/assets/scripts/svgtofont.min.js?v=160125173019"></script>
+<script type="text/javascript" language="JavaScript" src="/assets/scripts/html5shiv.min.js?v=160125173019"></script>
+
+<![endif]-->
+
+<!--[if gt IE 8]> -->
+    <script type="text/javascript" src="/assets/scripts/player-yuca-built-yt.2.0.js?v=200217200217"></script>
+    
+<!-- <![endif]-->
+
+        <script type="text/javascript" src="/bundles/bazingajstranslation/js/translator.min.js?v=200318094107"></script>
+        <script type="text/javascript" src="/bundles/fosjsrouting/js/router.js?v=200318094107"></script>
+        <script src="/translations/javascripts?locales=es&amp;v=200217200217"></script>
+        <script src="/translations/messages?locales=es&amp;v=200217200217"></script>
+        <script src="/js/routing?callback=fos.Router.setData&amp;v=200330130349"></script>
+        <script type="text/javascript">
+            var player, playerconfig = {}, locales = {}, moduleMode = null,
+                locale = 'es';
+            var apphash = {};
+            var options = (function(g,o,e){
+                for(i in g){ e = g[i].split('='); o[e.shift()] = e.join('='); } return o;
+            })(document.location.search.split('?').slice(1).join('?').split('&'),{});
+             
+            $(function(){
+                playerconfig = $.extend({
+                    disableLiveSync:true
+                },playerconfig);
+
+                if(options.hasOwnProperty('hideCounter')){
+                    delete playerconfig.displays.counter;
+                }
+				/*
+                if(options.hasOwnProperty('loop')){
+                    playerconfig.loop = !!options.loop;
+                }
+				*/
+                require(['jquery','vendor/modernizr','component/PlayerWebcast2'],
+                function($,modernizr,Player){
+                    player = new Player(document.getElementById('player_container'),playerconfig);
+                    //player.loop = options.hasOwnProperty('loop')&&options.loop;
+                    if(playerconfig.hasOwnProperty("autorun"))
+                    player.autorun = playerconfig.autorun;
+                    player.language = locale;
+                    player.locales = $.extend({
+                        'tc.live'                         :Translator.trans("player.tc.live"),
+                        'live'                            :Translator.trans("player.live"),
+                        'live.back'                       :Translator.trans("player.live.back"),
+                        'counter.before'                  :Translator.trans("player.counter.before"),
+                        'counter.dayshort'                :Translator.trans("player.counter.dayshort"),
+                        'counter.h'                       :Translator.trans("player.counter.hourshort"),
+                        'counter.m'                       :Translator.trans("player.counter.minuteshort"),
+                        'counter.s'                       :Translator.trans("player.counter.secondshort"),
+                        'counter.soon'                    :Translator.trans("player.counter.soon"),
+                        'share.label'                     :Translator.trans("player.share.label"),
+                        'share.subtitle'                  :Translator.trans("player.share.subtitle"),
+                        'share.quality'                   :Translator.trans("player.share.quality"),
+                        'error.codec.titre'               :Translator.trans("player.error.codec.titre"),
+                        'error.codec.description'         :Translator.trans("player.error.codec.description"),
+                        'error.video.titre'               :Translator.trans("player.error.video.titre"),
+                        'error.video.description'         :Translator.trans("player.error.video.description"),
+                        'error.generic.titre'             :Translator.trans("player.error.generic.titre"),
+                        'error.generic.description'       :Translator.trans("player.error.generic.description"),
+                        'error.flash-blocked.titre'       :Translator.trans("player.error.flash-blocked.titre"),
+                        'error.flash-blocked.description' :Translator.trans("player.error.flash-blocked.description"),
+                        'skin.play'                       :Translator.trans("player.skin.play"),
+                        'skin.stop'                       :Translator.trans("player.skin.stop"),
+                        'skin.pause'                      :Translator.trans("player.skin.pause"),
+                        'skin.fullscreen'                 :Translator.trans("player.skin.fullscreen"),
+                        'skin.mute'                       :Translator.trans("player.skin.mute"),
+                        'skin.unmute'                     :Translator.trans("player.skin.unmute"),
+                        'skin.share'                      :Translator.trans("player.skin.share"),
+                        'skin.quality'                    :Translator.trans("player.skin.quality"),
+                        'skin.subtitles'                  :Translator.trans("player.skin.subtitles")
+                    }, locales);
+                    var onReady = function (){},
+                        onCuePoint = function (type,value){  },
+                        onVideoEvent = function(type){
+                            switch(type){
+                                case 'play':
+                                    $('.module.player').toggleClass('paused',false).toggleClass('playing',true);
+                                break;
+                                case 'ended':
+                                case 'pause':
+                                    $('.module.player').toggleClass('paused',true).toggleClass('playing',false);
+                                break;
+                            }
+                        };
+                    player.init({
+                        'onReadyCallback':onReady ,
+                        'onCuePointCallback':onCuePoint,
+                        'onVideoEventCallback':onVideoEvent 
+                    });
+					player.video = {
+						type:"hls",
+						url:"https://viewonvodhd-f.akamaihd.net/i/celine/vod/bb77d9a7-159f-52cf-9229-c4cf9b2a5d4b-,108,72,48,36,0p.mp4.csmil/master.m3u8?__a__=off",
+						storage: "https:\/\/www.yuca.tv\/storage\/2\/248\/" 
+					};
+					if(compatibility.Browser.is('safari')||compatibility.System.is('ios'))
+					player.video.src = [{url: player.video.url, mimetype: 'application/vnd.apple.mpegURL'}];
+                });
+                 
+            });
+        </script>
+
+		<script type="text/javascript" src="/upload/clients/celine/js/player_20f07591c6fcb220ffe637cda29bb3f6_jsCustom.js?v=200325172555" ></script>
+    
+        <script type="text/javascript">
+        /* if gte IE 9 */
+        (function(d,t,s,e,l){if(!!d.documentMode && d.documentMode >= 9){
+            document.documentElement.className += ' gte-ie9';
+            e=d.createElement(t),l=d.getElementsByTagName(t)[0];
+            e.async=1;e.src=s;l.parentNode.insertBefore(e,l);}
+        })(document,'script','/assets/scripts/svg4everybody.min.js?v=160125173019');
+        </script>
+        <!--[if lte IE 9]>
+        <script type="text/javascript">document.documentElement.className += ' lte-ie9';</script>
+        <script type="text/javascript" language="JavaScript" src="/assets/scripts/jquery.placeholder.min.js?v=160125173019"></script>
+
+        <link rel="stylesheet" href="/assets/styles/event_ie.css?v=160125173019" />
+        <![endif]-->
+        <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-115056020-22', {cookieDomain: 'auto', cookieFlags: 'secure;samesite=none'});
+            ga('send', 'pageview');
+
+            (function(f){
+                setInterval(f,120000);
+                f();
+            })(function(){
+               ga('send', 'event', 'Visiteur', 'Toujours présent'); 
+            });
+        </script>
+    </head>
+    <body class="player-embed vod">
+        <div class="wrapper_embed"> 
+            <div class="module player">
+                <div id="player_container" class="player-viewon" data-plugin-options="{&quot;language&quot;:&quot;es&quot;,&quot;locale&quot;:&quot;es&quot;,&quot;module&quot;:&quot;20f07591c6fcb220ffe637cda29bb3f6&quot;,&quot;passkey&quot;:&quot;&quot;,&quot;autorun&quot;:false,&quot;useChapters&quot;:false,&quot;share&quot;:false,&quot;debut&quot;:0,&quot;flashVars&quot;:{&quot;display.overlay.link&quot;:&quot;https:\/\/www.celine.com&quot;,&quot;language&quot;:&quot;fr&quot;,&quot;locale&quot;:&quot;fr&quot;,&quot;paths.client_path&quot;:&quot;\/upload\/clients\/celine\/&quot;,&quot;path.client_path&quot;:&quot;\/upload\/clients\/celine\/&quot;,&quot;paths.base_dir&quot;:&quot;\/upload\/clients\/celine\/&quot;,&quot;path.base_dir&quot;:&quot;\/upload\/clients\/celine\/&quot;,&quot;display.overlay.share.facebook.disabled&quot;:true,&quot;display.overlay.share.twitter.disabled&quot;:&quot;true&quot;,&quot;display.overlay.share.google.disabled&quot;:true,&quot;display.overlay.share.twitter.title&quot;:&quot;&quot;,&quot;display.overlay.share.linkedin.disabled&quot;:&quot;true&quot;},&quot;services&quot;:{&quot;getModule&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;{paths.serviceDir}events\/{module}.json&quot;,&quot;format&quot;:&quot;json&quot;,&quot;useCache&quot;:false,&quot;data&quot;:[{&quot;key&quot;:&quot;passkey&quot;,&quot;value&quot;:&quot;{passkey}&quot;,&quot;isRequired&quot;:false}]},&quot;getPlaylist&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;{paths.serviceDir}events\/{module}\/playlist.json&quot;,&quot;format&quot;:&quot;json&quot;,&quot;useCache&quot;:false,&quot;data&quot;:[{&quot;key&quot;:&quot;passkey&quot;,&quot;value&quot;:&quot;{passkey}&quot;,&quot;isRequired&quot;:false},{&quot;key&quot;:&quot;_locale&quot;,&quot;value&quot;:&quot;{locale}&quot;,&quot;isRequired&quot;:false}]},&quot;getVideo&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;{paths.serviceDir}medias\/{uid}.json&quot;,&quot;format&quot;:&quot;json&quot;,&quot;useCache&quot;:false},&quot;getChapter&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;{paths.serviceDir}medias\/{uid}\/chapters.json&quot;,&quot;format&quot;:&quot;json&quot;,&quot;useCache&quot;:false},&quot;getCounter&quot;:{&quot;method&quot;:&quot;get&quot;,&quot;url&quot;:&quot;{paths.serviceDir}events\/{module}\/counter.json&quot;,&quot;format&quot;:&quot;json&quot;,&quot;useCache&quot;:false}},&quot;paths&quot;:{&quot;serviceDir&quot;:&quot;\/api\/celine.php?\/&quot;,&quot;baseDir&quot;:&quot;\/&quot;,&quot;posterPath&quot;:&quot;\/upload\/clients\/celine\/media\/&quot;,&quot;synchroPath&quot;:&quot;\/upload\/clients\/celine\/synchro\/&quot;,&quot;templatePath&quot;:&quot;{paths.baseDir}upload\/skin\/&quot;,&quot;subtitlePath&quot;:&quot;https:\/\/www.yuca.tv\/storage\/2\/248\/soustitres\/&quot;},&quot;flashParams&quot;:{&quot;wmode&quot;:&quot;opaque&quot;},&quot;displays&quot;:{&quot;videoreference&quot;:{&quot;usePlayButton&quot;:true},&quot;skin&quot;:{&quot;className&quot;:&quot;display\/SkinYTDisplay&quot;,&quot;mainColor&quot;:&quot;#000000&quot;,&quot;loadingColor&quot;:&quot;#b0b0b0&quot;,&quot;secondaryColor&quot;:&quot;#000000&quot;,&quot;template&quot;:&quot;{paths.templatePath}skinyt.html&quot;,&quot;shareUrl&quot;:&quot;https:\/\/www.celine.com&quot;,&quot;facebookDisabled&quot;:&quot;1&quot;,&quot;twitterDisabled&quot;:&quot;true&quot;,&quot;googleDisabled&quot;:&quot;1&quot;,&quot;twitterTitle&quot;:&quot;&quot;,&quot;linkedinDisabled&quot;:&quot;true&quot;},&quot;overlay&quot;:{&quot;className&quot;:&quot;display\/NullDisplay&quot;},&quot;title&quot;:{&quot;className&quot;:&quot;display\/TitleDisplay&quot;}},&quot;displayOrder&quot;:[&quot;videoreference&quot;,&quot;subtitles&quot;,&quot;playbutton&quot;,&quot;title&quot;,&quot;skin&quot;,&quot;error&quot;]}"></div>
+            </div>
+        </div>
+    </body>
+</html>

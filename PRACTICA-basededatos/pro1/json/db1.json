@@ -1,0 +1,173 @@
+{
+    "datos1": [
+        {
+            "ide": 1,
+            "articulo": "BLUSA DE CUATRO BOLSILLOS DE SEDA A RAYAS DOBLES",
+            "pvp": "1 490 €",
+            "ruta": "pics/Medium-663675Y2D187362_A.jpg",
+            "descripcion": "BLUSA CON CUATRO BOLSILLOS DE PARCHE EN LA PARTE DELANTERA CON BOTONES DE NÁCAR, DECORADA CON ESTAMPADO DE RAYAS DOBLES ALL-OVER.",
+            "color": " YELLOW BLACK",
+            "img2": "pics/Medium-663675Y2D187362_Y.jpg",
+            "img3": "pics/Medium-663675Y2D187362_B.jpg",
+            "genero": "hombre"
+        },
+        {
+            "ide": 2,
+            "articulo": "TOP CORTO CON LAZADA DE TERCIOPELO DE CUPRO",
+            "pvp": "2 190 €",
+            "ruta": "pics/Medium-677429Y525R1095_A.jpg",
+            "descripcion": "TOP CORTO CON UN LAZO DE GRAN TAMAÑO DECORADO CON PEDRERÍA EN LA PARTE DELANTERA Y EN LA COSTURA DE LOS TIRANTES, Y CON CIERRE DE CREMALLERA LATERAL.",
+            "color": " BLACK AND CHALK",
+            "img2": "pics/Medium-677429Y525R1095_Y.jpg",
+            "img3": "pics/Medium-677429Y525R1095_B.jpg",
+            "genero": "mujer"
+        },
+        {
+            "ide": 3,
+            "articulo": "CHAQUETA CON BOTONADURA SIMPLE A RAYAS DE LANA",
+            "pvp": "2 290 €",
+            "ruta": "pics/Medium-658389Y1D271000_A.jpg",
+            "descripcion": "CHAQUETA CORTA CON BOTONADURA SIMPLE, CIERRE CON UN BOTÓN, CON CUELLO CHAL Y RAYAS EN RELIEVE ALL-OVER.",
+            "color": " BLACK ",
+            "img2": "pics/Medium-658389Y1D271000_Y.jpg",
+            "img3": "pics/Medium-658389Y1D271000_B.jpg",
+            "genero": "hombre"
+        },
+        {
+            "ide": 4,
+            "articulo": "ZAPATOS DE SALÓN SLINGBACK VESPER DE TWEED BOUCLÉ",
+            "pvp": "695 €",
+            "ruta": "pics/Medium-6739060COKK1000_A.jpg",
+            "descripcion": "CHAQUETA CORTA CON BOTONADURA SIMPLE, CIERRE CON UN BOTÓN, CON CUELLO CHAL Y RAYAS EN RELIEVE ALL-OVER.",
+            "color": " BLACK ",
+            "img2": "pics/Medium-6739060COKK1000_Y.jpg",
+            "img3": "pics/Medium-6739060COKK1000_B.jpg",
+            "genero": "mujer"
+        },
+        {
+            "ide": 5,
+            "articulo": "SL 487",
+            "pvp": "295 €",
+            "ruta": "pics/Medium-671748Y99028013_A.jpg",
+            "descripcion": "GAFAS DE SOL CON MONTURA DE OJO DE GATO FINA DE METAL, LENTES DE NAILON Y PATILLAS CON GRABADO SAINT LAURENT.",
+            "color": " ORO CLARO ",
+            "img2": "pics/Medium-671748Y99028013_B .jpg",
+            "img3": "pics/Medium-671748Y99028013_B .jpg",
+            "genero": "mujer"
+        },
+        {
+            "ide": 6,
+            "articulo": "DERBIES ARMY DE CHAROL",
+            "pvp": "745 €",
+            "ruta": "pics/Medium-6702791TV001000_B.jpg"
+        },
+        {
+            "ide": 7,
+            "articulo": "CÁRDIGAN LARGO DE TWEED BOUCLÉ",
+            "pvp": "2 490 €",
+            "ruta": "pics/Medium-672980Y3C736231_A.jpg"
+        },
+        {
+            "ide": 8,
+            "articulo": "TOP DE SABLÉ SAINT LAURENT CON LA ESPALDA DESCUBIERTA",
+            "pvp": "1 190 €",
+            "ruta": "pics/Medium-672638Y012W1000_A.jpg"
+        },
+        {
+            "ide": 9,
+            "articulo": "PANTALONES ETIENNE DE DENIM NEGRO EFECTO DESGASTADO",
+            "pvp": "420 €",
+            "ruta": "pics/Medium-670614YF8991220_A.jpg"
+        },
+        {
+            "ide": 10,
+            "articulo": "PANTABOOTS EN DENIM",
+            "pvp": "2 500 €",
+            "ruta": "pics/Medium-66762929A004110_A.jpg"
+        },
+        {
+            "ide": 11,
+            "articulo": "MINIVESTIDO DE MUSELINA DE CREPÉ SEMITRANSPARENTE",
+            "pvp": "3 690 €",
+            "ruta": "pics/Medium-680249Y115W1000_A.jpg"
+        },
+        {
+            "ide": 12,
+            "articulo": "BOTAS 68 DE PIEL LISA",
+            "pvp": "1 395 €",
+            "ruta": "pics/Medium-6579222W7001000_A.jpg"
+        },
+        {
+            "ide": 13,
+            "articulo": "GABARDINA CON DOBLE BOTONADURA DE FIELTRO DE LANA",
+            "pvp": "2 690 €",
+            "ruta": "pics/Medium-661454Y2D271000_A.jpg"
+        },
+        {
+            "ide": 14,
+            "articulo": "BOTAS VASSILI CON CREMALLERA Y PIEL LISA",
+            "pvp": "895 €",
+            "ruta": "pics/Medium-66762025N001000_A.jpg"
+        },
+        {
+            "ide": 15,
+            "articulo": "SOBRECAMISA DE TERCIOPELO ACANALADO",
+            "pvp": "690 €",
+            "ruta": "pics/Medium-659849Y1D741095_A.jpg"
+        },
+        {
+            "ide": 16,
+            "articulo": "BODY CON ESCOTE PROFUNDO DE ENCAJE STRETCH NEGRO CON MOTIVO FLORAL",
+            "pvp": "1 290 €",
+            "ruta": "pics/Medium-488871Y454R1000_A.jpg"
+        },
+        {
+            "ide": 17,
+            "articulo": "24 RUE DE L'UNIVERSITÉ PERFUME",
+            "pvp": "245 €",
+            "ruta": "pics/Medium-523823999999942_A.jpg"
+        },
+        {
+            "ide": 18,
+            "articulo": "VESTIDO DE ESPALDA DESCUBIERTA EN DOBLE SABLÉ Y PELO SINTÉTICO",
+            "pvp": "2 790 €",
+            "ruta": "pics/Medium-672530Y024K1000_A.jpg"
+        },
+        {
+            "ide": 19,
+            "articulo": "CHAQUETA DE PIEL",
+            "pvp": "3 990 €",
+            "ruta": "pics/Medium-660982YCFG21000_A.jpg"
+        },
+        {
+            "ide": 20,
+            "articulo": "SL 309",
+            "pvp": "295 €",
+            "ruta": "pics/Medium-587254Y99028000_A.jpg"
+        },
+        {
+            "ide": 21,
+            "articulo": "CHAQUETA CORTA DE TWILL DE LANA CON ENCAJE FLORAL BORDADO",
+            "pvp": "3 290 €",
+            "ruta": "pics/Medium-670245Y3D161000_A.jpg"
+        },
+        {
+            "ide": 22,
+            "articulo": "CHAQUETA TEDDY DE VISCOSA Y SEDA",
+            "pvp": "1 990 €",
+            "ruta": "pics/Medium-664170Y2D609601_A.jpg"
+        },
+        {
+            "ide": 23,
+            "articulo": "6 PLACE SAINT SULPICE PERFUME",
+            "pvp": "245 €",
+            "ruta": "pics/Medium-523824999999942_A.jpg"
+        },
+        {
+            "ide": 24,
+            "articulo": "SUÉTER CON CUELLO VUELTO DE LANA A RAYAS",
+            "pvp": "450 €",
+            "ruta": "pics/Medium-663345Y75BO6010_A.jpg"
+        }
+    ]
+}

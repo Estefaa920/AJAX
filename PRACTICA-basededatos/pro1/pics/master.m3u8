@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4087000,RESOLUTION=1920x1080,CODECS="avc1.64001f, mp4a.40.2"
+https://viewonvodhd-f.akamaihd.net/i/celine/vod/bb77d9a7-159f-52cf-9229-c4cf9b2a5d4b-,108,72,48,36,0p.mp4.csmil/index_0_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2116000,RESOLUTION=1280x720,CODECS="avc1.77.30, mp4a.40.2"
+https://viewonvodhd-f.akamaihd.net/i/celine/vod/bb77d9a7-159f-52cf-9229-c4cf9b2a5d4b-,108,72,48,36,0p.mp4.csmil/index_1_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1123000,RESOLUTION=852x480,CODECS="avc1.77.30, mp4a.40.2"
+https://viewonvodhd-f.akamaihd.net/i/celine/vod/bb77d9a7-159f-52cf-9229-c4cf9b2a5d4b-,108,72,48,36,0p.mp4.csmil/index_2_av.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=726000,RESOLUTION=640x360,CODECS="avc1.77.30, mp4a.40.2"
+https://viewonvodhd-f.akamaihd.net/i/celine/vod/bb77d9a7-159f-52cf-9229-c4cf9b2a5d4b-,108,72,48,36,0p.mp4.csmil/index_3_av.m3u8

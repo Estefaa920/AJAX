@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recu</title>
+    <link rel="stylesheet" href="css/esilos.css">
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora de sueldo neto</h1>
+
+        <div>
+            <p>¿Cuál es tu sueldo bruto anual?</p>
+            <input type="number" name="sueldo" id="sueldo">
+        </div>
+
+        <div>
+            <p>¿Tienes hijos?</p>
+            <select name="" id="hijos" onchange="hijos()">
+                    <option value="no1" selected>Selecciona una opción</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>Introduce la edad de tú hijo</p>
+
+            <input type="number" name="" id="edad" placeholder="16">
+            <!-- <select name="" id="edad" onchange="edad()">
+                    <option value="no2" selected>Selecciona una opción</option>
+                    <option value="menor"> Menor de 16 años</option>
+                    <option value="entre">Entre 16 y 30 años</option>
+                    <option value="mayor">Mayor de 30 años</option>
+                </select> -->
+        </div>
+
+
+        <div>
+            <p>¿Cuantas pagas recibes al año?</p>
+            <select name="" id="pagas" onchange="pagas()">
+                    <option value="no3" selected>Selecciona una opción</option>
+                    <option value="doce">12</option>
+                    <option value="catorce">14</option>
+                </select>
+        </div>
+    </section>
+    <section>
+        <div>
+            <button onclick="calcular();">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+</body>
+
+</html>

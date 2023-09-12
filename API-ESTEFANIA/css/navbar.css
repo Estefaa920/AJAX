@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav a{
+    
+      padding-left: 20px;
+}
+
+
+nav a{
+    color: white;
+    padding-left: 20px;
+}
+
+nav ul{
+    display: block;
+   
+}
+
+nav ul li{
+     display: inline;
+    
+}
+
+.bold{
+    font-weight: 700;
+}

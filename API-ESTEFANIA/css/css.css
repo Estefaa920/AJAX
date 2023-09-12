@@ -1,0 +1,585 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+   list-style: none;
+   font-family: 'Lato', sans-serif;
+    
+ }
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid{
+   white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.pelis{
+    background-image: linear-gradient(-180deg, #e8712298, #e8392250);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+      border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  display: grid;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.336);
+
+  
+
+
+   
+}
+
+.pelis img{
+      cursor: pointer;
+    text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.445) 0 2px 4px;
+      border-radius: 3px;
+}
+
+
+.pelis h3{
+    
+  margin-top: 30px;
+  margin-bottom: 30px;
+   
+}
+
+.info{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+   
+    
+}
+
+h1{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.anuncio{
+    display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   margin-top: 7%;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.anuncio p{
+    margin:10px 10px 10px 10px;
+        font-size: 1rem;
+    line-height: 1.5rem;
+        font-weight: 500;
+   
+}
+
+.section1{
+      color: white;
+      text-align: center;
+      
+      
+}
+
+
+.titulo{margin-top: 100px;
+    font-weight: 800;
+    font-size: 3.375rem;
+    line-height: 4rem;
+    margin-bottom: 2.5rem;
+    max-width: 37.5rem;
+}
+
+.col-2{
+    width: 1%;
+}
+
+
+
+
+.inicio{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.section2{
+    margin-top: 15%;
+    text-align: center;
+   padding-left:30%;
+   padding-right:30%;
+   
+   
+}
+
+.section2 h2{
+        font-size: 2.125rem;
+    line-height: 2.75rem;
+}
+
+.section2 p {
+    margin-top: 30px;
+        font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-bottom: 7%;  
+}
+
+#movies{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.section3 h3{
+    margin-top: 70px;
+    margin-bottom:70px ;
+    text-align: center;
+    font-size: 2.125rem;
+    line-height: 2.75rem;
+}
+
+
+.pregunta{
+font-size: 2.125rem;
+    line-height: 2.75rem;
+}
+
+.respuesta{
+font-size: 1.125rem;
+    line-height: 1.625rem;
+    text-align: center;
+}
+
+.ft1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto auto 0px;
+    padding: 1.5rem 1.25rem 2rem;
+ 
+}
+
+
+.ft1 a {
+    color: #FF944D;
+    padding-left:30px;
+    font-size:19px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+footer p{
+   text-align: center;
+}
+
+footer{
+    padding: 30px 30px 30px 30px;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.900);
+}
+
+
+.col-3{
+    width: 18%;
+   
+}
+
+#pelis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.900);
+    padding-top: 30px;
+    padding-bottom: 30px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.336);
+      border-radius: 4px;
+      align-content: space-around;
+     
+  
+    
+   
+}
+
+#borrar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+       
+   
+
+}
+
+
+.p-left {
+    padding-right:10px;
+}
+
+
+
+/* CSS */
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #E87122, #e83922);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+#principal h2{
+       margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+   color: #EFEFEF;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+    margin-left: 10%;
+     width: 22%;
+     font-weight: 900;
+}
+
+#top{
+     font-weight: 900;
+     margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 27%;
+    text-align: center;
+  
+ text-shadow: 0.1em 0.1em 0.2em white;
+    
+}
+
+
+#busqueda{
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+   
+    
+    
+  
+}
+
+#recientes{
+     background-color: rgba(255, 255, 255, 0.900);
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 4%;
+    border-radius: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-bottom: none;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.336);
+    padding-top: 50px;
+    
+}
+
+
+
+#principal{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+
+ 
+}
+
+.col-6{
+    width: 70%;
+}
+
+.col-1{
+    width: 22%;
+}
+
+.infoP1 {
+      width: 70%;
+       font-size: 13px;
+       text-align: left;
+     
+    
+}
+
+.infoP2 {
+    width: 30%;
+     font-size: 10px;
+
+}
+
+.type{
+   
+    margin-left: 20px;
+    font-size: 10px;
+    text-align: right;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #E87122, #e83922);
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    border-radius: 0.25rem;
+    color: #01040a;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    
+}
+
+.manga{
+    font-size: 12px;
+    color: black;
+    text-align:center;
+    padding-left: 10%;
+  
+}
+
+
+
+.respuesta {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+  
+   
+   
+}
+
+#busqueda{
+
+    justify-content: center;
+    text-align: center;
+      display: flex;
+    flex-wrap: nowrap;
+  
+flex-direction: column;   
+    background-color: rgba(255, 255, 255, 0.900);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.336);
+      margin-right: 40px;
+      border-radius: 4px;
+      margin-top: 3%;
+      padding-top: 1%;
+    margin-left: 23%;
+    margin-right: 13%;
+}
+
+
+#busqueda img{
+       box-shadow: rgba(0, 0, 0, 0.445) 0 2px 4px;
+}
+
+
+.ep{
+      background-color: initial;
+  background-image: linear-gradient(-180deg, #E87122, #e83922);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    width: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+   
+    height: 16px;
+    border-radius: 8px;
+        opacity: 0.7;
+    transition: all .2s;
+    margin: auto;
+    right: 16px;
+}
+
+.jeje{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.col-10{
+    width: 40%;
+}
+
+.url{
+    padding-left: 3%;
+
+}
+
+
+
+
+.Hsup{
+ 
+          --image-width: 25%;
+   /* width: 25%;  */
+   
+  width:   var(--image-width);
+position: absolute;
+top: 7.5%;
+left: 3%;
+z-index: -1;
+
+}
+
+.col-5{
+width: 33.33%;
+}
+
+.icon{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1150px){
+    .anuncio{
+     width: 90%;
+     margin-bottom: 10%;
+    }
+
+    .titulo{
+        margin-top: 10px;
+        margin-bottom: 2%;
+        
+    }
+    .section2{
+    margin-top:5%;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .section2{
+    margin-top: 0%;
+}
+
+.section1 h1{
+    margin-top: 1%;
+    font-size: 22px;
+
+}
+
+.titulo{
+    margin-bottom: 0;
+}
+
+#recientes img{
+    display: none;
+}
+
+#recientes{
+    font-size: 7px;
+}
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+.titulo{
+    font-size: 30px;
+}
+
+.section1 h1{
+    margin-top: 0;
+   
+}
+ .pelis{
+     display: flex;
+    flex-direction: column;
+ }
+.col-3{
+    width:100% ;
+}
+
+.col-5{width: 50%;}
+
+#busqueda{
+    margin-left: 17%;
+}
+
+#recientes img{
+    display: none;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+.section2{
+    padding:10%;
+    width: 100%;
+    margin-top: 10%;
+   
+}
+
+.Hsup{
+top: 10%;
+
+
+}
+
+.section1 h1{
+    margin-top: 10%;
+}
+
+#top{margin-left: 22%;}
+
+
+ .anuncio{
+      display: none;
+    }
+    
+    .col-3{
+    width: 25%;
+   
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
